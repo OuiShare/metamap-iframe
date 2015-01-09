@@ -1,4 +1,4 @@
-@font-face{font-family:"Naiv";src:url(fonts/naiv_normal-webfont.ttf) format("truetype"),url(fonts/naiv_normal-webfont.otf) format("opentype")}@font-face{font-family:"Ouishare Stencil";src:url(fonts/ouishare_stencil_bold-webfont.ttf) format("truetype"),url(fonts/ouishare_stencil_bold-webfont.otf) format("opentype")}
+@font-face{font-family:"Naiv";src:url(/fonts/naiv_normal-webfont.ttf) format("truetype"),url(/fonts/naiv_normal-webfont.otf) format("opentype")}@font-face{font-family:"Ouishare Stencil";src:url(/fonts/ouishare_stencil_bold-webfont.ttf) format("truetype"),url(/fonts/ouishare_stencil_bold-webfont.otf) format("opentype")}
 
 body, ul, li, a {font-family: "Naiv", Verdana, Arial, sans-serif;}
 
