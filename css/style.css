@@ -1,4 +1,26 @@
-@font-face{font-family:"Naiv";src:url(/fonts/normal);src:url(/fonts/normal?#iefix) format("embedded-opentype"),url(/assets/naiv_normal-webfont.ttf) format("truetype"),url(/assets/naiv_normal-webfont.otf) format("opentype"),url(/assets/naiv_bold-webfont.ttf) format("truetype"),url(/assets/naiv_bold-webfont.eot) format("embedded-opentype")}@font-face{font-family:"Ouishare Stencil";src:url(/assets/ouishare_stencil_bold-webfont.ttf) format("truetype"),url(/assets/ouishare_stencil_bold-webfont.otf) format("opentype")}@font-face{font-family:"Naiv Bold";src:url(/fonts/bold);src:url(/fonts/bold?#iefix) format("embedded-opentype"),url(/assets/naiv_bold-webfont.ttf) format("truetype"),url(/assets/naiv_bold-webfont.eot) format("embedded-opentype")}
+@font-face {
+  font-family:"Naiv";
+  src:url(http://metamap.ouishare.net/assets/normal);
+  src:url(http://metamap.ouishare.net/assets/normal?#iefix) format("embedded-opentype"),
+  url(http://metamap.ouishare.net/assets/naiv_normal-webfont.ttf) format("truetype"),
+  url(http://metamap.ouishare.net/assets/naiv_normal-webfont.otf) format("opentype"),
+  url(http://metamap.ouishare.net/assets/naiv_bold-webfont.ttf) format("truetype"),
+  url(http://metamap.ouishare.net/assets/naiv_bold-webfont.eot) format("embedded-opentype")
+}
+
+@font-face{
+  font-family:"Ouishare Stencil";
+  src:url(http://metamap.ouishare.net/assets/ouishare_stencil_bold-webfont.ttf) format("truetype"),
+    url(http://metamap.ouishare.net/assets/ouishare_stencil_bold-webfont.otf) format("opentype")
+}
+
+@font-face{
+  font-family:"Naiv Bold";
+  src:url(http://metamap.ouishare.net/fonts/bold);
+  src:url(http://metamap.ouishare.net/fonts/bold?#iefix) format("embedded-opentype"),
+  url(http://metamap.ouishare.net/assets/naiv_bold-webfont.ttf) format("truetype"),
+  url(http://metamap.ouishare.net/assets/naiv_bold-webfont.eot) format("embedded-opentype")
+}
 
 body, ul, li, a {font-family: "Naiv", Verdana, Arial, sans-serif;}
 
