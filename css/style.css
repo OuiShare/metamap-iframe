@@ -22,6 +22,10 @@
   url(http://metamap.ouishare.net/assets/naiv_bold-webfont.eot) format("embedded-opentype")
 }
 
+body {
+  overflow: hidden;
+}
+
 body, ul, li, a {font-family: "Naiv", Verdana, Arial, sans-serif;}
 
 .contain-to-grid { border-bottom: none !important; }
