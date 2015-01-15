@@ -2,9 +2,30 @@
 
 body, ul, li, a {font-family: "Naiv", Verdana, Arial, sans-serif;}
 
-div.map-text {width:100%; height:auto; background:#fff;position:fixed; top:50px;text-align:center;font-size:0.9em;line-height:auto;}
-div.map-text span {width:60%;margin: 0 auto;}
-iframe#map {position:fixed; left:0px; bottom:0px; right:0px; width:100%; height:89%; border:none; margin:0; padding:0; overflow:hidden; z-index:99;}
+.contain-to-grid { border-bottom: none !important; }
+div.map-text {
+  z-index: 1; 
+  width:100%; 
+  height:30px; 
+  background:#424242;
+  position:fixed; 
+  top:22px;
+  text-align:center;
+  font-size:0.9em;
+  line-height:30px;
+   /* For Safari 3.1 to 6.0 */
+  -webkit-transition-property: top;
+  -webkit-transition-duration: 0.2s;
+  -webkit-transition-timing-function: ease-in-out;
+  /* Standard syntax */
+  transition-property: top;
+  transition-duration: 0.2s;
+  transition-timing-function: ease-in-out;
+}
+div.map-text:hover { top: 45px; }
+div.map-text span {width:60%;margin: 0 auto; color: #FFF; }
+div.map-text a { color: #4fb5c0; }
+iframe#map { width:100%; position: relative; top: 50px; border:none; margin:0; padding:0; overflow:hidden; z-index:0;}
 
 @media (max-width: 768px) {
    div.map-text span{width:90%;}
